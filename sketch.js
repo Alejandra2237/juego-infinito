@@ -19,30 +19,30 @@ function preload(){
   jumpSound = loadSound("jump.wav");
   collidedSound = loadSound("collided.wav");
   
-  fondoImage = loadImage("../images/backgroundImg.png");
-  backgroundImg = loadImage("../images/bg_dia.png");
-  backgroundImgN = loadImage("../images/bg_noche.png");
+  fondoImage = loadImage("backgroundImg.png");
+  backgroundImg = loadImage("bg_dia.png");
+  backgroundImgN = loadImage("bg_noche.png");
   sunAnimation = loadImage("sun.png");
   
-  trex_running = loadAnimation("../images/astronautabyjus03.png","../images/astronautabyjus04.png");
-  //trex_jump = loadAnimation("../images/astronautabyjus01.png");
-  trex_collided = loadAnimation("../images/astronautabyjus02.png");
+  trex_running = loadAnimation("astronautabyjus03.png","astronautabyjus04.png");
+  //trex_jump = loadAnimation("astronautabyjus01.png");
+  trex_collided = loadAnimation("astronautabyjus02.png");
   
   //groundImage = loadImage("ground.png");
   
   cloudImage = loadImage("cloud.png");
   
-  obstacle1 = loadImage("../images/obstacle1.png");
-  obstacle2 = loadImage("../images/obstacle2.png");
-  obstacle3 = loadImage("../images/obstacle3.png");
-  logo1 = loadImage("../images/cocacolalogo.png");
-  logo2 = loadImage("../images/kellogslogo.png");
-  logo3 = loadImage("../images/kidzanialogo.png");
-  logo4 = loadImage("../images/logostomar02.png");
-  logo5 = loadImage("../images/logotomar1.png");
-  logo6 = loadImage("../images/nissanlogo.png");
+  obstacle1 = loadImage("obstacle1.png");
+  obstacle2 = loadImage("obstacle2.png");
+  obstacle3 = loadImage("obstacle3.png");
+  logo1 = loadImage("cocacolalogo.png");
+  logo2 = loadImage("kellogslogo.png");
+  logo3 = loadImage("kidzanialogo.png");
+  logo4 = loadImage("logostomar02.png");
+  logo5 = loadImage("logotomar1.png");
+  logo6 = loadImage("nissanlogo.png");
   
-  gameOverImg = loadImage("../images/gameOver.png");
+  gameOverImg = loadImage("gameOver.png");
   //restartImg = loadImage("restart.png");
 }
 
